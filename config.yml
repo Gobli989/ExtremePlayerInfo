@@ -12,32 +12,50 @@
 settings:
   # Should the plugin be enabled?
   Enable: true
+  # Allow to reload the config file.
+  Reload-Config: true
+  # Color codes supported, see the color codes above.
+  Prefix: "&3[&fPlayerInfo&3]"
+  # Header
+  Header: "&3[&f&m-+--------------&3] &fPlayer Informations &3[&f&m-+--------------&3]"
 
 messages:
+  # Message at the Header
+  Player-Info: Player Info
+  # Messages for the informations
   info:
-    Secret: Secret
-    DisplayName: Display Name
-    Name: Name
-    UUID: UUID
-    Gamemode: Gamemode
-    World: World
-    LocX: X Coord
-    LocY: Y Coord
-    LocZ: Z Coord
-    Food: Food
-    Health: Health
-    MaxHealth: Maximum Health
-    Exp: Exp
-    Flying: Flying
-    FlySpeed: Fly Speed
-    WalkSpeed: WalkSpeed
-    Banned: Banned
-    Whitelist: Whitelisted
-    Online: Online
-    Op: Op
-    Sprinting: Sprinting
-    Sneaking: Sneaking
-    Sleeping: Sleeping
-    Blocking: Blocking
-    InsideVehicle: Inside Vehicle
-    Dead: Dead
+    # Secret: The Secret IP Address
+    Secret: "&4SECRET"
+    # Other Messages
+    DisplayName: "&fDisplay Name &7> &3"
+    Name: "&fName &7> &3"
+    UUID: "&fUUID &7> &3"
+    Gamemode: "&fGamemode &7> &3"
+    World: "&fWorld &7> &3"
+    LocX: "&fX Coord &7> &3"
+    LocY: "&fY Coord &7> &3"
+    LocZ: "&fZ Coord &7> &3"
+    Food: "&fFood &7> &3"
+    Health: "&fHealth &7> &3"
+    Exp: "&fExp &7> &3"
+    Flying: "&fFlying &7> &3"
+    FlySpeed: "&fFlyspeed &7> &3"
+    WalkSpeed: "&fWalkspeed &7> &3"
+    Banned: "&fBanned &7> &3"
+    Whitelist: "&fWhitelisted &7> &3"
+    Online: "&fOnline &7> &3"
+    Op: "&fOp &7> &3"
+    Sprint: "&fSprinting &7> &3"
+    Sneaking: "&fSneaking &7> &3"
+    Sleeping: "&fSleeping &7> &3"
+    Blocking: "&fBlocking &7> &3"
+    InsideVehicle: "&fInside Vehicle &7> &3"
+    Dead: "&fDead &7> &3"
+    Ip: "&fIP Address &7> &3"
+  misc:
+    No-Perm: "&cYou don't have permission for this command."
+    No-Reload: "&cReloading is disabled on this server."
+    Usage: "&cUsage: /pi <Target>"
+    Config-Reload: "&aConfig successfully Reloaded."
+    Not-Enabled: "&cThis plugin is not enabled."
+    Only-Player: "&cOnly player can run this command."
