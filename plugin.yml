@@ -3,9 +3,10 @@ main: me.gobli989.extremeplayerinfo.MainClass
 version: 1.0.0
 description: ExtremePlayerInfo
 author: Gobli989
-prefix: playerinfo
 commands:
   playerinfo:
     aliases: [pi, epi, extremeplayerinfo, pinfo, playeri]
     description: Main and Only Command
-    usage: /<command> <Target>
+  extremeplayerinfo:
+    aliases: [expi, expireload, extremeplayerinforeload, extremeplayerinfo-reload]
+    description: The Plugin's Admin panel
